@@ -17,8 +17,14 @@ class History extends StatelessWidget {
           itemBuilder: (context, index) {
             final item = items[index];
             return ListTile(
-              title: Text(item.calculation),
-              subtitle: Text(item.result),
+              title: Text(
+                item.calculation,
+                style: TextStyle(fontSize: 24),
+              ),
+              subtitle: Text(
+                item.result,
+                style: TextStyle(fontSize: 20),
+              ),
             );
           }),
     );

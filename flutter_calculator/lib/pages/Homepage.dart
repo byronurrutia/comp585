@@ -142,6 +142,43 @@ class _HomePageState extends State<HomePage> {
                         textColor: Colors.black,
                       );
                     }
+
+                    // √ Button
+                    else if (buttons[index] == '√') {
+                      return MyButton(
+                        buttonText: buttons[index],
+                        color: Colors.blue[50],
+                        textColor: Colors.black,
+                      );
+                    }
+
+                    // x² Button
+                    else if (buttons[index] == 'x²') {
+                      return MyButton(
+                        buttonText: buttons[index],
+                        color: Colors.blue[50],
+                        textColor: Colors.black,
+                      );
+                    }
+
+                    // 1⁄x Button
+                    else if (buttons[index] == '1⁄x') {
+                      return MyButton(
+                        buttonText: buttons[index],
+                        color: Colors.blue[50],
+                        textColor: Colors.black,
+                      );
+                    }
+
+                    // CE Button
+                    else if (buttons[index] == 'CE') {
+                      return MyButton(
+                        buttonText: buttons[index],
+                        color: Colors.blue[50],
+                        textColor: Colors.black,
+                      );
+                    }
+
                     // % Button
                     else if (buttons[index] == '%') {
                       return MyButton(
